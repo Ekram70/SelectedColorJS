@@ -13,14 +13,18 @@ body {
 
 h1,
 span {
-  display: inline-block;
-  font-size: 32px;
+  display: block;
+  text-align: center;
+  font-size: 45px;
   font-family: "Montserrat", sans-serif;
 }
 
 span {
   color: white;
-  padding: 1px 5px;
+  width: 200px;
+  font-size: 35px;
+  margin: 0 auto;
+  padding: 5px;
 }
 
 div {
@@ -30,8 +34,10 @@ div {
 }
 
 @media all and (max-width: 650px) {
-  h1,
+  h1 {
+    font-size: 25px;
+  }
   span {
-    font-size: 22px;
+    font-size: 25px;
   }
 }
